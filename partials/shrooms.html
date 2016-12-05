@@ -1,0 +1,12 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="col-xs-3"><input type="text" placeholder="search for..."></div>
+    <div class="col-xs-2"><input type="checkbox" name=""/>poisonus</div>
+    <div class="col-xs-2"><input type="checkbox" name=""/>edible</div>
+    <ul ng-repeat="item in mushroom">
+      <li>{{item}}</li>
+      <li>{{item.description}}</li>
+      <li>{{item.edible}}</li>
+    </ul>
+  </div>
+</div>
